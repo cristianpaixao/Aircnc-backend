@@ -6,9 +6,12 @@
   "author": "Cristian Paixao <cristian.paixao@outlook.com>",
   "license": "MIT",
   "scripts": {
-    "start": "node ./src/server.js"
+    "dev": "nodemon src/server.js"
   },
   "dependencies": {
     "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.3"
   }
 }
