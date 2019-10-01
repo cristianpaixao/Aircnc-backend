@@ -1,0 +1,14 @@
+{
+  "name": "aircnc-backend",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/cristianpaixao/Aircnc-backend.git",
+  "author": "Cristian Paixao <cristian.paixao@outlook.com>",
+  "license": "MIT",
+  "scripts": {
+    "start": "node ./src/server.js"
+  },
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
